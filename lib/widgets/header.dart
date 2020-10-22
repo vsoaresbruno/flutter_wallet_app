@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wallet_app/data.dart';
+import 'package:wallet_app/colors.dart';
 
 class WalletHeader extends StatelessWidget {
   @override

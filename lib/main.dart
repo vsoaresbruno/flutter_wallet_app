@@ -3,7 +3,8 @@
 // found in the LICENSE file.
 
 import 'package:flutter/material.dart';
-import 'package:wallet_app/data.dart';
+import 'package:wallet_app/colors.dart';
+import 'package:wallet_app/widgets/ExpenseSection.dart';
 import 'package:wallet_app/widgets/cardSection.dart';
 import 'package:wallet_app/widgets/header.dart';
 
@@ -28,7 +29,7 @@ class HomePage extends StatelessWidget {
             child: WalletHeader(),
           ),
           Expanded(child: Container(child: CardSection())),
-          Expanded(child: Container())
+          Expanded(child: Container(child: ExpenseSection()))
         ],
       ),
     );
